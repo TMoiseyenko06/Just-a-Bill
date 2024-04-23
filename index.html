@@ -6,9 +6,8 @@
            function playVideoAfterDelay(delayInSeconds) {
       setTimeout(function() {
         var video = document.getElementById('myVideo');
-        if (video.paused) {
           video.play();
-        }
+        
       }, delayInSeconds * 1000); 
     }
 
